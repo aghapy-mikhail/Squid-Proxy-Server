@@ -17,3 +17,5 @@ node-http-proxy: A full-featured http proxy for node.js. node-http-proxy is an H
 node-http-proxy can be classified as a tool in the "Load Balancer / Reverse Proxy" category, while Squid is grouped under "Web Cache".
 
 https://stackshare.io/stackups/node-http-proxy-vs-squid
+
+https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
