@@ -38,6 +38,31 @@ https://stackshare.io/stackups/node-http-proxy-vs-squid
 
 https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
 
+How to deny a user from accessing particular site?
+
+https://servercomputing.blogspot.com/2012/01/block-facebook-in-squid-proxy-server.html
+
+
+
+
+Here the post will show you how to block complete "http" and "https" facebook access in office times in your squid proxy server. Create an acl with facebook domain (dstdomain) and deny both http and https access.
+
+
+
+
+
+
+
+
+
+
 Installing Squid Proxy on Ubuntu 
+
+
+
+
+
+
+
 
 
