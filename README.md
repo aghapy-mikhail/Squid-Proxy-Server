@@ -1,5 +1,5 @@
 # Squid-Proxy-Server-
-Squid: Optimising Web Delivery
+## Squid: Optimising Web Delivery
 
 Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
 
@@ -11,7 +11,7 @@ Squid is a Linux-based proxy application. The Squid proxy server is used for fil
 
 
 
-# How it's Work 
+# How Accelerator Work 
 
 https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html
 
@@ -19,11 +19,12 @@ https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/a
 
 
 
- Why run an accelerator?
+# Why run an accelerator?
 
 These are some reasons why you might want to run a web accelerator using Squid:
 
     Server performance. Squid performs faster than the original web server, so you would like to make Squid the front end server, and put the original one behind it.
+    
     Network performance. The origin server can be on a slow network, such as across international links. A web accelerator or mirror closer to the rest of the Net, physically located in the US for example, will make your web site faster for the rest of the world.
 
     Squid is easier to maintain than a regular httpd since you only have to add pages on the origin server and the mirror will catch up. You might want to put Expires headers in your HTTP responses to make sure that the mirror is not serving stale data.
@@ -33,12 +34,6 @@ These are some reasons why you might want to run a web accelerator using Squid:
    
 # Security
 You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
-
-Squid and Security
-Report Documentation Bug
-
-Edit source
-
 It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache. The firewall denies all clients access to external services except Squid. All Web connections must be established by the proxy. With this configuration, Squid completely controls Web access.
 
 If the firewall configuration includes a DMZ, the proxy should operate within this zone. Section 33.6, “Configuring a Transparent Proxy” describes how to implement a transparent proxy. This simplifies the configuration of the clients, because in this case, they do not need any information about the proxy.
@@ -52,7 +47,7 @@ is that the origin server will not know the original IP address of the clients, 
 
 
 
-Prerequisites
+# Prerequisites
 
     An Ubuntu operating system
     Access to a terminal window/command line (Ctrl-Alt-T)
@@ -60,7 +55,7 @@ Prerequisites
     The apt package installer, included by default
 
 
- Configuring Squid as an Accelerator 
+# Configuring Squid as an Accelerator 
 
 
 
@@ -72,7 +67,7 @@ Squid offers a rich access control, authorization and logging environment to dev
 
 https://www.slideshare.net/rohitphulsunge/squid-server
 
-node-http-proxy vs Squid: What are the differences?
+## node-http-proxy vs Squid: What are the differences?
 
 node-http-proxy: A full-featured http proxy for node.js. node-http-proxy is an HTTP programmable proxying library that supports websockets. It is suitable for implementing components such as proxies and load balancers; Squid: A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. Squid reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
 
@@ -82,7 +77,7 @@ https://stackshare.io/stackups/node-http-proxy-vs-squid
 
 https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
 
-How to deny a user from accessing particular site?
+# How to deny a user from accessing particular site?
 
 https://servercomputing.blogspot.com/2012/01/block-facebook-in-squid-proxy-server.html
 
@@ -100,7 +95,7 @@ Here the post will show you how to block complete "http" and "https" facebook ac
 
 
 
-Installing Squid Proxy on Ubuntu 
+# Installing Squid Proxy on Ubuntu 
 
 
 
