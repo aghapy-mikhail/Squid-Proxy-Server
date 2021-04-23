@@ -61,7 +61,7 @@ Installing Squid Proxy on Ubuntu
 
 
 
-
+https://phoenixnap.com/kb/setup-install-squid-proxy-server-ubuntu
 
 
 
