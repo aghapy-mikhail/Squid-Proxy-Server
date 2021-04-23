@@ -33,6 +33,15 @@ These are some reasons why you might want to run a web accelerator using Squid:
 # Security
 You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
 
+Squid and Security
+Report Documentation Bug
+
+Edit source
+
+It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache. The firewall denies all clients access to external services except Squid. All Web connections must be established by the proxy. With this configuration, Squid completely controls Web access.
+
+If the firewall configuration includes a DMZ, the proxy should operate within this zone. Section 33.6, “Configuring a Transparent Proxy” describes how to implement a transparent proxy. This simplifies the configuration of the clients, because in this case, they do not need any information about the proxy.
+
     
     
 # One disadvantage 
@@ -50,7 +59,7 @@ Prerequisites
     The apt package installer, included by default
 
 
-
+ Configuring Squid as an Accelerator 
 
 
 
