@@ -9,9 +9,11 @@ Squid is a Linux-based  caching proxy for the Web supporting HTTP, HTTPS, FTP, a
 . The Squid proxy server is used for filtering traffic, security, and DNS lookups.
 
 #### How Caching Works
- Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
-
-
+<p>
+ Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. 
+ When the user requests a web page or file, the request goes directly to the proxy server — a
+ n intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
+</p>
 
 #### How Accelerator Work 
 
@@ -77,9 +79,11 @@ This simplifies the configuration of the clients, because in this case, they do 
     
     
 ###  disadvantage 
-is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header. 
-This will affect logging and visitor analysis, as well as document protection access control lists.
-You might want to move this log analysis to your accelerator instead. it because it has no graphical interface for the configuration of the services, everything has to be done by instructions in the text file and getti11111ng an error is difficult with many instruction lines. 
+<p>
+is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header.<br>
+This will affect logging and visitor analysis, as well as document protection access control lists.<br>
+You might want to move this log analysis to your accelerator instead.<br>
+ it because it has no graphical interface for the configuration of the services, everything has to be done by instructions in the text file and getti11111ng an error is difficult with many instruction lines. </p>
 
 
 
