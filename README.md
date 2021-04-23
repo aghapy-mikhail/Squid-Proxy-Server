@@ -14,7 +14,7 @@ Squid has extensive access controls and makes a great server accelerator. It run
  Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web .<br>
  When the user requests a web page or file, the request goes directly to the proxy server an intermediary device  between the user’s device and the internet.<br> The proxy server pulls up the resources and relays them to the user.
 
-#### How Accelerator Work 
+## How Accelerator Work 
 
 
  Accelerator mode is a different operating style where instead of acting as a proxy, Squid acts as an origin web server. <br>
@@ -50,7 +50,7 @@ who requested it <br> without having to return to the original server. Reduce ne
 
 
 
-#### Why run an accelerator?
+## Why run an accelerator?
 
 These are some reasons why you might want to run a web accelerator using Squid:
 
@@ -69,26 +69,25 @@ These are some reasons why you might want to run a web accelerator using Squid:
     will be forwarded on to the origin server.
    
    
-### Security
+## Security
 
 You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. 
 Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
-It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache.
+It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache. <br>
 
 The firewall denies all clients access to external services except Squid. All Web connections must be established by the proxy. 
-With this configuration, Squid completely controls Web access.
+With this configuration, Squid completely controls Web access.<br>
 
 If the firewall configuration includes a DMZ, the proxy should operate within this zone.
 This simplifies the configuration of the clients, because in this case, they do not need any information about the proxy.
 
     
     
-###  disadvantage 
-<p>
+##  disadvantage 
 is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header.<br>
 This will affect logging and visitor analysis, as well as document protection access control lists.<br>
 You might want to move this log analysis to your accelerator instead.<br>
- it because it has no graphical interface for the configuration of the services, everything has to be done by instructions in the text file and getti11111ng an error is difficult with many instruction lines. </p>
+it because it has no graphical interface for the configuration of the services, everything has to be done by instructions in the text file and getting an error is difficult with many instruction lines. 
 
 
 
