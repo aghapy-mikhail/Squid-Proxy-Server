@@ -6,7 +6,8 @@ Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It r
 
 Squid is a Linux-based proxy application. The Squid proxy server is used for filtering traffic, security, and DNS lookups.
 
-Also, Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
+# How Caching Works
+ Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
 
 
 
