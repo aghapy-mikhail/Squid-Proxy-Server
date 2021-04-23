@@ -8,12 +8,12 @@ Squid is a Linux-based  caching proxy for the Web supporting HTTP, HTTPS, FTP, a
 
 . The Squid proxy server is used for filtering traffic, security, and DNS lookups.
 
-# How Caching Works
+#### How Caching Works
  Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
 
 
 
-# How Accelerator Work 
+#### How Accelerator Work 
 
 https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html
 
@@ -30,7 +30,8 @@ depends on the speed of updating the pages of that site.
 the scripts transfer the request to the main server after changing the source addresses to hide the real address 
 for users as a preventive and security measure for the user and bring The request to the user and save a copy of it in his cache. 
 
-if the page is still effective and not expired (Still fresh) he sends it directly to the user who requested it without having to return to the original server. Reduce network traffic as we mentioned.
+if the page is still effective and not expired (Still fresh) he sends it directly to the user
+who requested it without having to return to the original server. Reduce network traffic as we mentioned.
 
 
 Either if the requested page is not in cache, or it is expired or incorrect in some way, then the scudger brings it from the original server and checks the cacheability in it. If it is cacheable, he saved a copy of it in his cache, otherwise he cannot save a copy From that page, and every time this page is requested, it will be forced to fetch it from the original server, as in the following pictures that illustrate the work of the squad: 
@@ -42,7 +43,7 @@ Either if the requested page is not in cache, or it is expired or incorrect in s
 
 
 
-# Why run an accelerator?
+#### Why run an accelerator?
 
 These are some reasons why you might want to run a web accelerator using Squid:
 
@@ -57,30 +58,38 @@ These are some reasons why you might want to run a web accelerator using Squid:
     on the origin server and the mirror will catch up. 
     You might want to put Expires headers in your HTTP responses to make sure that the mirror is not serving stale data.
 
-    Anything that requires real intelligence on the part of the web server, such as CGI scripts, will be forwarded on to the origin server.
+    Anything that requires real intelligence on the part of the web server, such as CGI scripts, 
+    will be forwarded on to the origin server.
    
    
-# Security
-You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
-It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache. The firewall denies all clients access to external services except Squid. All Web connections must be established by the proxy. With this configuration, Squid completely controls Web access.
+### Security
 
-If the firewall configuration includes a DMZ, the proxy should operate within this zone. Section 33.6, “Configuring a Transparent Proxy” describes how to implement a transparent proxy. This simplifies the configuration of the clients, because in this case, they do not need any information about the proxy.
+You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. 
+Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
+It is possible to use Squid together with a firewall to secure internal networks from the outside using a proxy cache.
+
+The firewall denies all clients access to external services except Squid. All Web connections must be established by the proxy. 
+With this configuration, Squid completely controls Web access.
+
+If the firewall configuration includes a DMZ, the proxy should operate within this zone.
+This simplifies the configuration of the clients, because in this case, they do not need any information about the proxy.
 
     
     
-# One disadvantage 
-is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header. This will affect logging and visitor analysis, as well as document protection access control lists. You might want to move this log analysis to your accelerator instead. 
-
+###  disadvantage 
+is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header. 
+This will affect logging and visitor analysis, as well as document protection access control lists.
+You might want to move this log analysis to your accelerator instead. it because it has no graphical interface for the configuration of the services, everything has to be done by instructions in the text file and getti11111ng an error is difficult with many instruction lines. 
 
 
 
 
 # Prerequisites
 
-    An Ubuntu operating system
-    Access to a terminal window/command line (Ctrl-Alt-T)
-    An Ubuntu user with root or sudo privileges
-    The apt package installer, included by default
+    1-Ubuntu operating system
+    2-Access to a terminal window/command line (Ctrl-Alt-T)
+    3-An Ubuntu user with root or sudo privileges
+    4-The apt package installer, included by default
 
 
 # Configuring Squid as an Accelerator 
