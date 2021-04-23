@@ -8,6 +8,40 @@ Squid is a Linux-based proxy application. The Squid proxy server is used for fil
 
 Also, Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
 
+
+
+# How it's Work 
+
+https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html
+
+ Accelerator mode is a different operating style where instead of acting as a proxy, Squid acts as an origin web server. Instead of serving up fixed (static) documents, though, it fetches documents from one or more origin servers. It is called an accelerator since it can serve up documents faster than classic httpd servers, which keep all pages on disk and tend to do more computation per request. 
+
+
+
+ Why run an accelerator?
+
+These are some reasons why you might want to run a web accelerator using Squid:
+
+    Server performance. Squid performs faster than the original web server, so you would like to make Squid the front end server, and put the original one behind it.
+    Network performance. The origin server can be on a slow network, such as across international links. A web accelerator or mirror closer to the rest of the Net, physically located in the US for example, will make your web site faster for the rest of the world.
+
+    Squid is easier to maintain than a regular httpd since you only have to add pages on the origin server and the mirror will catch up. You might want to put Expires headers in your HTTP responses to make sure that the mirror is not serving stale data.
+
+    Anything that requires real intelligence on the part of the web server, such as CGI scripts, will be forwarded on to the origin server.
+   
+   
+# Security
+You can use Squid to hide an internal server, or one is that is prone to attack, behind an accelerator. Web users visiting your site will never touch the internal server. If your web server is vulnerable to data-driven attacks, such as invalid URLs, Squid will either complain about them, or you can set up ACLs to block them off.
+
+    
+    
+# One disadvantage 
+is that the origin server will not know the original IP address of the clients, except through the X-Forwarded-For HTTP header. This will affect logging and visitor analysis, as well as document protection access control lists. You might want to move this log analysis to your accelerator instead. 
+
+
+
+
+
 Prerequisites
 
     An Ubuntu operating system
