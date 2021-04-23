@@ -37,3 +37,7 @@ node-http-proxy can be classified as a tool in the "Load Balancer / Reverse Prox
 https://stackshare.io/stackups/node-http-proxy-vs-squid
 
 https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
+
+Installing Squid Proxy on Ubuntu 
+
+
