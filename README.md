@@ -6,6 +6,8 @@
 Squid is a Linux-based  caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. <br>
 It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. <br>
 Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.<br> 
+Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance. 
+
 **The Squid proxy server is used** for filtering traffic, security, and DNS lookups.
 
 
@@ -100,31 +102,20 @@ it because it has no graphical interface for the configuration of the services, 
     4-The apt package installer, included by default
 
 
-# Configuring Squid as an Accelerator 
 
 
 
 
 
-# a fully-featured HTTP/1.1 proxy.
-Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance. 
 
 
-https://www.slideshare.net/rohitphulsunge/squid-server
 
-## node-http-proxy vs Squid: What are the differences?
 
-node-http-proxy: A full-featured http proxy for node.js. node-http-proxy is an HTTP programmable proxying library that supports websockets. It is suitable for implementing components such as proxies and load balancers; Squid: A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. Squid reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
-
-node-http-proxy can be classified as a tool in the "Load Balancer / Reverse Proxy" category, while Squid is grouped under "Web Cache".
-
-https://stackshare.io/stackups/node-http-proxy-vs-squid
 
 https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
 
 # How to deny a user from accessing particular site?
 
-https://servercomputing.blogspot.com/2012/01/block-facebook-in-squid-proxy-server.html
 
 
 
@@ -151,3 +142,4 @@ https://phoenixnap.com/kb/setup-install-squid-proxy-server-ubuntu
 https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html
 
 
+https://www.slideshare.net/rohitphulsunge/squid-server
