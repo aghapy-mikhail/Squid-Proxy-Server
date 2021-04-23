@@ -8,7 +8,12 @@ Squid is a Linux-based proxy application. The Squid proxy server is used for fil
 
 Also, Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web pages. When the user requests a web page or file, the request goes directly to the proxy server — an intermediary device between the user’s device and the internet. The proxy server pulls up the resources and relays them to the user.
 
+Prerequisites
 
+    An Ubuntu operating system
+    Access to a terminal window/command line (Ctrl-Alt-T)
+    An Ubuntu user with root or sudo privileges
+    The apt package installer, included by default
 
 
 
