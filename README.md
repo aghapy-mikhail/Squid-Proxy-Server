@@ -21,15 +21,41 @@ https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/a
 
 
 
+When any request comes from any user of a particular web page, the Squid checks the internal cache in it to see if this page contains,
+where it compares the (MD5) part of the address (URL). 
+If the page is in the cache, it checks the expire time of the page. 
+As each web page on the Internet has a validity period determined by the owner of the site itself and 
+depends on the speed of updating the pages of that site. 
+   If they are expired, 
+the scripts transfer the request to the main server after changing the source addresses to hide the real address 
+for users as a preventive and security measure for the user and bring The request to the user and save a copy of it in his cache. 
+
+if the page is still effective and not expired (Still fresh) he sends it directly to the user who requested it without having to return to the original server. Reduce network traffic as we mentioned.
+
+
+Either if the requested page is not in cache, or it is expired or incorrect in some way, then the scudger brings it from the original server and checks the cacheability in it. If it is cacheable, he saved a copy of it in his cache, otherwise he cannot save a copy From that page, and every time this page is requested, it will be forced to fetch it from the original server, as in the following pictures that illustrate the work of the squad: 
+
+
+
+
+
+
+
+
 # Why run an accelerator?
 
 These are some reasons why you might want to run a web accelerator using Squid:
 
-    Server performance. Squid performs faster than the original web server, so you would like to make Squid the front end server, and put the original one behind it.
+    Server performance. Squid performs faster than the original web server, 
+    so you would like to make Squid the front end server, and put the original one behind it.
     
-    Network performance. The origin server can be on a slow network, such as across international links. A web accelerator or mirror closer to the rest of the Net, physically located in the US for example, will make your web site faster for the rest of the world.
+    Network performance. The origin server can be on a slow network, such as across international links.
+    A web accelerator or mirror closer to the rest of the Net, physically located in the US for example,
+    will make your web site faster for the rest of the world.
 
-    Squid is easier to maintain than a regular httpd since you only have to add pages on the origin server and the mirror will catch up. You might want to put Expires headers in your HTTP responses to make sure that the mirror is not serving stale data.
+    Squid is easier to maintain than a regular httpd since you only have to add pages 
+    on the origin server and the mirror will catch up. 
+    You might want to put Expires headers in your HTTP responses to make sure that the mirror is not serving stale data.
 
     Anything that requires real intelligence on the part of the web server, such as CGI scripts, will be forwarded on to the origin server.
    
