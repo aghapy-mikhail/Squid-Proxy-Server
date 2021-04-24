@@ -65,4 +65,10 @@ Next, you will need to define your Proxy server in your Mozilla web browser.
 
 Go to the client system, open the Mozilla web browser, and click on the Edit => Preferences as shown below:
 
-Click on the Network Settings section and click on the Settings. You should see the following page:
+Click on the Network Settings section and click on the Settings. 
+
+![image](https://user-images.githubusercontent.com/46167070/115955365-4e72f980-a4f6-11eb-862e-2fa3b29e2ba8.png)
+
+
+You should see the following page:
+![image](https://user-images.githubusercontent.com/46167070/115955450-c17c7000-a4f6-11eb-9615-db7728975c8b.png)
