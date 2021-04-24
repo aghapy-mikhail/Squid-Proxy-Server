@@ -1,13 +1,19 @@
 # Setup tutorial
 
-### Step 1: Refresh the Software Repositories
+## A-Execute Shell File write in terminal :
+    ./squid.sh
+
+## B-Setup Enviroment
+
+
+#### Step 1: Refresh the Software Repositories
 
 Ensure you’re working with the latest software version available.
 Launch a terminal window, and enter the following:
 
     sudo apt-get update
 
-### Step 2: Install Squid Package on Ubuntu
+#### Step 2: Install Squid Package on Ubuntu
 
 To install Squid, run the command:
         
@@ -22,7 +28,7 @@ Once the Squid is installed, you can check the status of the Squid service with 
  ![image](https://user-images.githubusercontent.com/46167070/115952118-a43ea600-a4e4-11eb-803f-f1673d550e46.png)
     
     
-   ### Step 3 : Set Up IP Based Authentication
+   #### Step 3 : Set Up IP Based Authentication
    
         ip addr show
    ![image](https://user-images.githubusercontent.com/46167070/115953392-7dd03900-a4eb-11eb-8c3f-c5a2a74278aa.png)
