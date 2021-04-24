@@ -72,3 +72,12 @@ Click on the Network Settings section and click on the Settings.
 
 You should see the following page:
 ![image](https://user-images.githubusercontent.com/46167070/115955450-c17c7000-a4f6-11eb-9615-db7728975c8b.png)
+
+
+
+
+Facebook is Blocked Succesfully 
+![image](https://user-images.githubusercontent.com/46167070/115955855-8a5b8e00-a4f9-11eb-9837-e7095887c587.png)
+
+
+
