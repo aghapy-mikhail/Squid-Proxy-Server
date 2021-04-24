@@ -39,7 +39,7 @@ and then Press i to insert in Configration file and navigate **INSERT YOUR OWN R
 ![image](https://user-images.githubusercontent.com/46167070/115954416-3cdb2300-a4f1-11eb-88d3-6f0e180822f8.png)
 
 
-Then press :wq to save your Configrations
+Then press ESC then :wq to save your Configrations.
 
 ### For Blocking Websites
 
@@ -47,5 +47,22 @@ Then press :wq to save your Configrations
 
 
 
+![image](https://user-images.githubusercontent.com/46167070/115954892-bb38c480-a4f3-11eb-86f5-9cfd65975c3b.png)
 
 
+Then press ESC then :wq to save your Blocked Website.
+
+
+### Restart the Squid service by entering:
+     systemctl restart squid
+
+
+
+
+# Verify Squid Proxy
+
+Next, you will need to define your Proxy server in your Mozilla web browser.
+
+Go to the client system, open the Mozilla web browser, and click on the Edit => Preferences as shown below:
+
+Click on the Network Settings section and click on the Settings. You should see the following page:
