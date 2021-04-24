@@ -1,17 +1,19 @@
 #!/bin/bash
-
-# This is a comment
-
-
-
-
+#1  Refresh the Software Repositories
 sudo apt-get update
-sudo apt-get install squid
-echo "Squid Proxy Is enabled"
-echo "Squid Proxy Is Configuired"
- echo "systemctl restart squid"
+echo " Refresh the Software Repositories"
 
-echo "verify the status of the service "
-echo"Type i to enter insert mode."
-sudo systemctl status squid
-
+#2  Install Squid Package on Ubuntu
+ sudo apt-get install squid
+ echo " Install Squid Package on Ubuntu"
+#3 Check  status squid
+ systemctl status squid
+#4  Set Up IP Based Authentication
+echo "Set Up IP Based Authentication"
+    sudo vim /etc/squid/squid.conf
+#5 For Blocking Websites
+echo "For Blocking Websites"
+sudo vim /etc/squid/blocksite
+#6 Restart the Squid service by entering
+echo "Restart the Squid service by entering"
+ systemctl restart squid
