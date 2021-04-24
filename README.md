@@ -112,7 +112,6 @@ it because it has no graphical interface for the configuration of the services, 
 
 
 
-https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/
 
 # How to deny a user from accessing particular site?
 
@@ -124,22 +123,13 @@ Here the post will show you how to block complete "http" and "https" facebook ac
 
 
 
+## Refrences 
 
 
 
+1-[Block Websites Using Squid Proxy](https://www.toolbox.com/tech/operating-systems/question/block-websites-using-squid-proxy-020812/) <br>
+2-[How to Set Up & Install Squid Proxy Server on Ubuntu 18.04](https://phoenixnap.com/kb/setup-install-squid-proxy-server-ubuntu)<br>
+3-[Cache accelerator mode](https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html)<br>
+4-[ Squid server ](https://www.slideshare.net/rohitphulsunge/squid-server)<br>
+5-[How to install and configure Squid proxy server in Ubuntu 20.4.1](https://www.youtube.com/watch?v=QQ8GyUi2GNg&list=LL&index=3&t=378s)
 
-
-
-
-# Installing Squid Proxy on Ubuntu 
-
-
-
-
-https://phoenixnap.com/kb/setup-install-squid-proxy-server-ubuntu
-
-
-https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html
-
-
-https://www.slideshare.net/rohitphulsunge/squid-server
