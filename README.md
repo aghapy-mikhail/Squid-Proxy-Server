@@ -16,7 +16,7 @@ Squid offers a rich access control, authorization and logging environment to dev
  Squid can speed up a web server by caching resources. The Squid Proxy allows a server to cache frequently visited web .<br>
  When the user requests a web page or file, the request goes directly to the proxy server an intermediary device  between the user’s device and the internet.<br> The proxy server pulls up the resources and relays them to the user.
 
-## How Accelerator Work 
+## How Accelerator Work  (Reverse Proxy)
 
 
  Accelerator mode is a different operating style where instead of acting as a proxy, Squid acts as an origin web server. <br>
