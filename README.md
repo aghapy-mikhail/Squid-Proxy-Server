@@ -43,7 +43,7 @@ for users as a preventive and security measure .<br> for the user and bring The 
 who requested it <br> without having to return to the original server. Reduce network traffic as we mentioned. <br>
 
 
-4-Either if the requested page is not in cache, or it is expired or incorrect in some way, then the scudger brings it from the original server and checks the cacheability in it. If it is cacheable, he saved a copy of it in his cache, otherwise he cannot save a copy From that page, and every time this page is requested, it will be forced to fetch it from the original server, as in the following pictures that illustrate the work of the squad: 
+4-Either if the requested page is not in cache, or it is expired or incorrect in some way, then the scudger brings it from the original server and checks the cacheability in it. If it is cacheable, he saved a copy of it in his cache, otherwise he cannot save a copy From that page, and every time this page is requested, it will be forced to fetch it from the original server.
 
 
 
