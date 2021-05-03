@@ -87,3 +87,4 @@ Facebook is Blocked Succesfully
 
 
 
+https://howchoo.com/mac/how-to-set-up-a-proxy-server-on-mac Mac
