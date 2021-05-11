@@ -108,11 +108,6 @@ it because it has no graphical interface for the configuration of the services, 
 
 
 
-
-
-
-
-
 # How to deny a user from accessing particular site?
 
 
@@ -131,5 +126,7 @@ Here the post will show you how to block complete "http" and "https" facebook ac
 2-[How to Set Up & Install Squid Proxy Server on Ubuntu 18.04](https://phoenixnap.com/kb/setup-install-squid-proxy-server-ubuntu)<br>
 3-[Cache accelerator mode](https://projects.horms.net/projects/redundant_linux_paper/related/squid/detail/accel.html)<br>
 4-[ Squid server ](https://www.slideshare.net/rohitphulsunge/squid-server)<br>
-5-[How to install and configure Squid proxy server in Ubuntu 20.4.1](https://www.youtube.com/watch?v=QQ8GyUi2GNg&list=LL&index=3&t=378s)
+5-[How to install and configure Squid proxy server in Ubuntu 20.4.1](https://www.youtube.com/watch?v=QQ8GyUi2GNg&list=LL&index=3&t=378s) <br>
 
+6-[How to install and configure Squid proxy server in Windows](https://techencyclopedia.wordpress.com/2018/04/07/how-to-install-and-configure-squid-proxy-on-windows/)
+7-[How to install and configure Squid proxy server MAC](https://howchoo.com/mac/how-to-set-up-a-proxy-server-on-mac)
